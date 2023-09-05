@@ -136,8 +136,8 @@ Before using this Tmux configuration, make sure you have the following installed
      - 📋`<Prefix> ]`: Paste from the clipboard.
 
 
-     - ✂️ `v:` Start selection (while in copy mode).
-     - 📋`y:` Copy selected text to the system clipboard (in MacOS requires reattach-to-user-namespace).
+     - ✂️ `v`: Start selection (while in copy mode).
+     - 📋`y`: Copy selected text to the system clipboard (in MacOS requires reattach-to-user-namespace).
 
 ## Troubleshooting 🔧
 
