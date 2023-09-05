@@ -13,78 +13,78 @@ Who can use it? Anyone can use it!📺
 
 Before using this Tmux configuration, make sure you have the following installed on your system:
 
-    * Tmux: Ensure Tmux is installed on your system.
-     
-    * Terminal Emulator: Use a compatible terminal emulator-you have probably one installed (e.g.,Kitty, Alacritty, GNOME Terminal).
-     
-    * reattach-to-user-namespace: Required for clipboard support on macOS (installable via Homebrew).
+ * **Tmux**: Ensure Tmux is installed on your system.
+  
+ * **Terminal Emulator**: Use a compatible terminal emulator-you have probably one installed (e.g.,Kitty, Alacritty, GNOME Terminal).
+  
+ * `reattach-to-user-namespace`: Required for clipboard support on macOS (installable via Homebrew).
 
 
 ## Installation 📦
 
-    1. Install the programs listed above using your package manager or download them from their respective websites.
-    
-    2. Copy the config file:
-        **Linux & MacOS & WSL:**
-        Copy and paste the following command into the terminal and press 'enter':
-        ```bash
-        git clone https://github.com/YanivZalach/Tmux_Config.git ~/.Tmux_Config
-        mv ~/.Tmux_Config/.tmux.conf ~/.
-        
-        ```
-        
-    3. **We are Done!**
+ 1. Install the programs listed above using your package manager or download them from their respective websites.
+ 
+ 2. Copy the config file:
+     **Linux & MacOS & WSL:**
+     Copy and paste the following command into the terminal and press 'enter':
+     ```bash
+     git clone https://github.com/YanivZalach/Tmux_Config.git ~/.Tmux_Config
+     mv ~/.Tmux_Config/.tmux.conf ~/.
+     
+     ```
+     
+ 3. **We are Done!**
 
 
 ## Usage, Features, and Special Key Bindings 🚀🪙
 
-    **Get ready to supercharge your Tmux experience**
+ **Get ready to supercharge your Tmux experience**
 
 
-    **Features 🎉**
-    🖱️ Mouse Support: Enjoy using the mouse in Tmux with your preferred terminal emulator.
-    ⏱️ Status Bar: Information-rich status bar displayed at the top.
-    🔄 Automatic Renumbering: Windows are automatically renumbered to fill gaps.
-    🔁 Immediate Window Switching: Quickly change windows using arrow keys.
-    🌈 256 Colors: Supports 256-color terminals for a colorful experience.
-    Feel free to customize this configuration to your liking or use it as is to turbocharge your terminal workflow! 🚀🚀🚀
-        
-    
-    Prefix Key 🌟
-        🎯 `C-a` , `C-z`: Your starting point. This is the prefix key. All Tmux commands begin with this key followed by another keybinding.
-    General Commands 🛠️
-        🔄 `C-a r`: Reload your Tmux configuration.
-        🚪 `C-a X`: Confirm and kill the current window.
-        🪟 `C-a Q`: Confirm and kill the entire session.
-        🪟 `C-a q`: Confirm and kill the current pane.
-        🧲 `C-a s`: Choose a different Tmux session.
-        📛 `C-a M`: Rename the current session.
-        🪟 `C-a c`: Create a new Tmux window.
-        🔀 `C-a t`: Move to the next window.
-        🔀 `C-a T`: Move to the previous window.
-        🔃 `C-a C-o`: Rotate windows (circularly).
-        🖍️ `C-a m`: Rename the current window.
-    Pane Management 🪟
-        ➡️ `C-a x`: Split the current pane horizontally.
-        ⬇️ `C-a y`: Split the current pane vertically.
-        🔗`C-a S`: Synchronize panes.
-        📊`C-a C-y`: Use a horizontal layout.
-        📊`C-a C-x`: Use a vertical layout.
-        ⏩`C-a Enter`: Switch to the next layout.
-        ⬅️ `M-Left`: Move to the pane on the left.
-        ➡️ `M-Right`: Move to the pane on the right.
-        ⬆️ `M-Up`: Move to the pane above.
-        ⬇️ `M-Down`: Move to the pane below.
-        ⬅️ `C-a h`: Move to the pane on the left.
-        ⬇️ `C-a j`: Move to the pane below.
-        ⬆️ `C-a k`: Move to the pane above.
-        ➡️ `C-a l`: Move to the pane on the right.
-        🧩`C-a e`: Move to the previously active pane.
-        📊`C-a d`: Display pane numbers.
-        ➡️ `C-a H`: Resize the current pane leftwards.
-        ⬇️ `C-a J`: Resize the current pane downwards.
-        ⬆️ `C-a K`: Resize the current pane upwards.
-        ➡️ `C-a L`: Resize the current pane rightwards.
+ **Features 🎉**
+ 🖱️ Mouse Support: Enjoy using the mouse in Tmux with your preferred terminal emulator.
+ ⏱️ Status Bar: Information-rich status bar displayed at the top.
+ 🔄 Automatic Renumbering: Windows are automatically renumbered to fill gaps.
+ 🔁 Immediate Window Switching: Quickly change windows using arrow keys.
+ 🌈 256 Colors: Supports 256-color terminals for a colorful experience.
+ Feel free to customize this configuration to your liking or use it as is to turbocharge your terminal workflow! 🚀🚀🚀
+     
+ 
+ Prefix Key 🌟
+     🎯 `C-a` , `C-z`: Your starting point. This is the prefix key. All Tmux commands begin with this key followed by another keybinding.
+ General Commands 🛠️
+     🔄 `C-a r`: Reload your Tmux configuration.
+     🚪 `C-a X`: Confirm and kill the current window.
+     🪟 `C-a Q`: Confirm and kill the entire session.
+     🪟 `C-a q`: Confirm and kill the current pane.
+     🧲 `C-a s`: Choose a different Tmux session.
+     📛 `C-a M`: Rename the current session.
+     🪟 `C-a c`: Create a new Tmux window.
+     🔀 `C-a t`: Move to the next window.
+     🔀 `C-a T`: Move to the previous window.
+     🔃 `C-a C-o`: Rotate windows (circularly).
+     🖍️ `C-a m`: Rename the current window.
+ Pane Management 🪟
+     ➡️ `C-a x`: Split the current pane horizontally.
+     ⬇️ `C-a y`: Split the current pane vertically.
+     🔗`C-a S`: Synchronize panes.
+     📊`C-a C-y`: Use a horizontal layout.
+     📊`C-a C-x`: Use a vertical layout.
+     ⏩`C-a Enter`: Switch to the next layout.
+     ⬅️ `M-Left`: Move to the pane on the left.
+     ➡️ `M-Right`: Move to the pane on the right.
+     ⬆️ `M-Up`: Move to the pane above.
+     ⬇️ `M-Down`: Move to the pane below.
+     ⬅️ `C-a h`: Move to the pane on the left.
+     ⬇️ `C-a j`: Move to the pane below.
+     ⬆️ `C-a k`: Move to the pane above.
+     ➡️ `C-a l`: Move to the pane on the right.
+     🧩`C-a e`: Move to the previously active pane.
+     📊`C-a d`: Display pane numbers.
+     ➡️ `C-a H`: Resize the current pane leftwards.
+     ⬇️ `C-a J`: Resize the current pane downwards.
+     ⬆️ `C-a K`: Resize the current pane upwards.
+     ➡️ `C-a L`: Resize the current pane rightwards.
     Copy Mode 📋
         📋`C-a [`: Enter copy mode.
         📋`C-a ]`: Paste from the clipboard.
