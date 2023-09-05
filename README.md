@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-   <img width="200" src="https://en.wikipedia.org/wiki/Tmux#/media/File:Tmux_logo.svg" alt="Tmux Logo">
+   <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/800px-Tmux_logo.svg.png" alt="Tmux Logo">
 </p>
 
 
@@ -15,6 +15,9 @@ What do we have here? My Tmux configuration file!🪄
 
 
 Who can use it? Anyone can use it!📺
+
+![tmux](https://github.com/YanivZalach/Tmux_Config/assets/131461377/acd4d292-4b95-4ded-9dad-31d2967c8f77)
+
 
 ## Requirements 📋
 
