@@ -17,7 +17,7 @@ Before using this Tmux configuration, make sure you have the following installed
   
  * **Terminal Emulator**: Use a compatible terminal emulator-you have probably one installed (e.g.,Kitty, Alacritty, GNOME Terminal).
   
- * `reattach-to-user-namespace`: Required for clipboard support on macOS (installable via Homebrew).
+ * `reattach-to-user-namespace`: Required for clipboard support on MacOS (installable via Homebrew).
 
 
 ## Installation 📦
@@ -58,35 +58,51 @@ Before using this Tmux configuration, make sure you have the following installed
  * General Commands 🛠️
 
      - 🔄 `C-a r`: Reload your Tmux configuration.
+
+
+     - 🪟 `C-a q`: Confirm and kill the current pane.
      - 🚪 `C-a X`: Confirm and kill the current window.
      - 🪟 `C-a Q`: Confirm and kill the entire session.
-     - 🪟 `C-a q`: Confirm and kill the current pane.
-     - 🧲 `C-a s`: Choose a different Tmux session.
-     - 📛 `C-a M`: Rename the current session.
+
+
+     - 🧲 `C-a s`: Detouch (quit and save) Tmux session.
      - 🪟 `C-a c`: Create a new Tmux window.
+     - 🔃 `C-a C-o`: Rotate windows (circularly).
+
+
+     - 📛 `C-a M`: Rename the current session.
+     - 🖍️ `C-a m`: Rename the current window.
+
+
      - 🔀 `C-a t`: Move to the next window.
      - 🔀 `C-a T`: Move to the previous window.
-     - 🔃 `C-a C-o`: Rotate windows (circularly).
-     - 🖍️ `C-a m`: Rename the current window.
 
  * Pane Management 🪟
 
-     - ➡️ `C-a x`: Split the current pane horizontally.
-     - ⬇️ `C-a y`: Split the current pane vertically.
      - 🔗`C-a S`: Synchronize panes.
+     - 📊`C-a d`: Display pane numbers.
+
+
+     - ➡️ `C-a x`: Split the current pane horizontally (x axis).
+     - ⬇️ `C-a y`: Split the current pane vertically (y axis).
      - 📊`C-a C-y`: Use a horizontal layout.
      - 📊`C-a C-x`: Use a vertical layout.
      - ⏩`C-a Enter`: Switch to the next layout.
+
+
      - ⬅️ `M-Left`: Move to the pane on the left.
      - ➡️ `M-Right`: Move to the pane on the right.
      - ⬆️ `M-Up`: Move to the pane above.
      - ⬇️ `M-Down`: Move to the pane below.
+
+
      - ⬅️ `C-a h`: Move to the pane on the left.
      - ⬇️ `C-a j`: Move to the pane below.
      - ⬆️ `C-a k`: Move to the pane above.
      - ➡️ `C-a l`: Move to the pane on the right.
      - 🧩`C-a e`: Move to the previously active pane.
-     - 📊`C-a d`: Display pane numbers.
+
+
      - ➡️ `C-a H`: Resize the current pane leftwards.
      - ⬇️ `C-a J`: Resize the current pane downwards.
      - ⬆️ `C-a K`: Resize the current pane upwards.
@@ -96,8 +112,10 @@ Before using this Tmux configuration, make sure you have the following installed
 
      - 📋`C-a [`: Enter copy mode.
      - 📋`C-a ]`: Paste from the clipboard.
+
+
      - ✂️ `v:` Start selection (while in copy mode).
-     - 📋`y:` Copy selected text to the system clipboard (requires reattach-to-user-namespace).
+     - 📋`y:` Copy selected text to the system clipboard (in MacOS requires reattach-to-user-namespace).
 
 ## Troubleshooting 🔧
 
