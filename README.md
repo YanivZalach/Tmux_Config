@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-   <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/800px-Tmux_logo.svg.png" alt="Tmux Logo">
+   <img width="350" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/800px-Tmux_logo.svg.png" alt="Tmux Logo">
 </p>
 
 
