@@ -1,5 +1,12 @@
 # My Awesome Tmux Configuration
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+   <img width="200" src="https://en.wikipedia.org/wiki/Tmux#/media/File:Tmux_logo.svg" alt="Tmux Logo">
+</p>
+
+
 
 Tmux is a terminal multiplexer that allows you to split your terminal into multiple panes and windows, enhancing your productivity by providing a seamless way to manage and organize your terminal sessions. It's like having multiple terminals within one, all in a single window.
 
@@ -57,37 +64,49 @@ Before using this Tmux configuration, make sure you have the following installed
 
  * General Commands 🛠️
 
-     - 🔄 `C-a r`: Reload your Tmux configuration.
+     - 🧲 `<Prefix> s`: Detouch (quit and save) Tmux session.
+     - M  `<Prefix> :`: Command Prompt
+     - 🔄 `<Prefix> r`: Reload your Tmux configuration.
 
 
-     - 🪟 `C-a q`: Confirm and kill the current pane.
-     - 🚪 `C-a X`: Confirm and kill the current window.
-     - 🪟 `C-a Q`: Confirm and kill the entire session.
+     - 🪟 `<Prefix> q`: Confirm and kill the current pane.
+     - 🚪 `<Prefix> X`: Confirm and kill the current window.
+     - 🪟 `<Prefix> Q`: Confirm and kill the entire session.
 
+     - 📋 `<Prefix> C-l`: Clearing the terminal window
 
-     - 🧲 `C-a s`: Detouch (quit and save) Tmux session.
-     - 🪟 `C-a c`: Create a new Tmux window.
-     - 🔃 `C-a C-o`: Rotate windows (circularly).
+ * Session Management 🪟
 
+     - 📊`<Prefix> C-s`: Session Tree
+     - 📛 `<Prefix> M`: Rename the current session.
 
-     - 📛 `C-a M`: Rename the current session.
-     - 🖍️ `C-a m`: Rename the current window.
+ * Window Management 🪟
 
+     - 🪟 `<Prefix> c`: Create a new Tmux window.
+     - 🖍️ `<Prefix> m`: Rename the current window.
 
-     - 🔀 `C-a t`: Move to the next window.
-     - 🔀 `C-a T`: Move to the previous window.
+     - ⬅️ `S-Left`: Move to the Left window.
+     - ➡️ `S-Right`: Move to the Right window.
+
+     - 🔀 `C-S-Left`: Move window to the Left.
+     - 🔀 `C-S-Right`: Move window to the Right .
+
+     - 🔄 `<Prefix> t`: Move to the next window.
+     - 🔄 `<Prefix> T`: Move to the previous window.
+     - 🔃 `<Prefix> C-o`: Rotate windows (circularly).
+
 
  * Pane Management 🪟
 
-     - 🔗`C-a S`: Synchronize panes.
-     - 📊`C-a d`: Display pane numbers.
+     - 🔗`<Prefix> S`: Synchronize panes.
+     - 📊`<Prefix> d`: Display pane numbers.
 
 
-     - ➡️ `C-a x`: Split the current pane horizontally (x axis).
-     - ⬇️ `C-a y`: Split the current pane vertically (y axis).
-     - 📊`C-a C-y`: Use a horizontal layout.
-     - 📊`C-a C-x`: Use a vertical layout.
-     - ⏩`C-a Enter`: Switch to the next layout.
+     - ➡️ `<Prefix> x`: Split the current pane horizontally (x axis).
+     - ⬇️ `<Prefix> y`: Split the current pane vertically (y axis).
+     - 📊`<Prefix> C-y`: Use a horizontal layout.
+     - 📊`<Prefix> C-x`: Use a vertical layout.
+     - ⏩`<Prefix> Enter`: Switch to the next layout.
 
 
      - ⬅️ `M-Left`: Move to the pane on the left.
@@ -96,22 +115,22 @@ Before using this Tmux configuration, make sure you have the following installed
      - ⬇️ `M-Down`: Move to the pane below.
 
 
-     - ⬅️ `C-a h`: Move to the pane on the left.
-     - ⬇️ `C-a j`: Move to the pane below.
-     - ⬆️ `C-a k`: Move to the pane above.
-     - ➡️ `C-a l`: Move to the pane on the right.
-     - 🧩`C-a e`: Move to the previously active pane.
+     - ⬅️ `<Prefix> h`: Move to the pane on the left.
+     - ⬇️ `<Prefix> j`: Move to the pane below.
+     - ⬆️ `<Prefix> k`: Move to the pane above.
+     - ➡️ `<Prefix> l`: Move to the pane on the right.
+     - 🧩`<Prefix> e`: Move to the previously active pane.
 
 
-     - ➡️ `C-a H`: Resize the current pane leftwards.
-     - ⬇️ `C-a J`: Resize the current pane downwards.
-     - ⬆️ `C-a K`: Resize the current pane upwards.
-     - ➡️ `C-a L`: Resize the current pane rightwards.
+     - ➡️ `<Prefix> H`: Resize the current pane leftwards.
+     - ⬇️ `<Prefix> J`: Resize the current pane downwards.
+     - ⬆️ `<Prefix> K`: Resize the current pane upwards.
+     - ➡️ `<Prefix> L`: Resize the current pane rightwards.
 
 * Copy Mode 📋
 
-     - 📋`C-a [`: Enter copy mode.
-     - 📋`C-a ]`: Paste from the clipboard.
+     - 📋`<Prefix> [`: Enter copy mode.
+     - 📋`<Prefix> ]`: Paste from the clipboard.
 
 
      - ✂️ `v:` Start selection (while in copy mode).
