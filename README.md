@@ -98,37 +98,33 @@ Before using this Tmux configuration, make sure you have the following installed
      - 🔄 `<Prefix> T`: Move to the previous window.
      - 🔃 `<Prefix> C-o`: Rotate windows (circularly).
 
-
  * Pane Management 🪟
 
      - 🔗`<Prefix> S`: Synchronize panes.
      - 📊`<Prefix> d`: Display pane numbers.
-
+     - 🧩`<Prefix> e`: Move to the previously active pane.
 
      - ➡️ `<Prefix> x`: Split the current pane horizontally (x axis).
      - ⬇️ `<Prefix> y`: Split the current pane vertically (y axis).
+
      - 📊`<Prefix> C-y`: Use a horizontal layout.
      - 📊`<Prefix> C-x`: Use a vertical layout.
      - ⏩`<Prefix> Enter`: Switch to the next layout.
 
+     - ⬅️ `A-Left`: Resize pane to the left.
+     - ➡️ `A-Right`: Resize pane to the right.
+     - ⬆️ `A-Up`: Resize pane up.
+     - ⬇️ `A-Down`: Resize pane down.
 
-     - ⬅️ `M-Left`: Move to the pane on the left.
-     - ➡️ `M-Right`: Move to the pane on the right.
-     - ⬆️ `M-Up`: Move to the pane above.
-     - ⬇️ `M-Down`: Move to the pane below.
-
+     - ⬅️ `C-h`: Move to the pane on the left Not in Vim.
+     - ➡️ `C-l`: Move to the pane on the right Not in Vim.
+     - ⬆️ `C-k`: Move to the pane above Not in Vim.
+     - ⬇️ `C-j`: Move to the pane below Not in Vim.
 
      - ⬅️ `<Prefix> h`: Move to the pane on the left.
-     - ⬇️ `<Prefix> j`: Move to the pane below.
+     - ➡️ `<Prefix> j`: Move to the pane on the right.
      - ⬆️ `<Prefix> k`: Move to the pane above.
-     - ➡️ `<Prefix> l`: Move to the pane on the right.
-     - 🧩`<Prefix> e`: Move to the previously active pane.
-
-
-     - ➡️ `<Prefix> H`: Resize the current pane leftwards.
-     - ⬇️ `<Prefix> J`: Resize the current pane downwards.
-     - ⬆️ `<Prefix> K`: Resize the current pane upwards.
-     - ➡️ `<Prefix> L`: Resize the current pane rightwards.
+     - ⬇️ `<Prefix> l`: Move to the pane below.
 
 * Copy Mode 📋
 
@@ -138,6 +134,7 @@ Before using this Tmux configuration, make sure you have the following installed
 
      - ✂️ `v`: Start selection (while in copy mode).
      - 📋`y`: Copy selected text to the system clipboard (in MacOS requires reattach-to-user-namespace).
+
 
 ## Troubleshooting 🔧
 
