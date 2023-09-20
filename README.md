@@ -63,7 +63,7 @@ Before using this Tmux configuration, make sure you have the following installed
 
  * Prefix Key 🌟
 
-     - 🎯 `C-a` , `C-z`: Your starting point. This is the prefix key. All Tmux commands begin with this key followed by another keybinding.
+     - 🎯 `C-a` , `C-x`: Your starting point. This is the prefix key. All Tmux commands begin with this key followed by another keybinding.
 
  * General Commands 🛠️
 
