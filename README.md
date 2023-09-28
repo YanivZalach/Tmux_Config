@@ -111,15 +111,20 @@ Before using this Tmux configuration, make sure you have the following installed
      - 📊`<Prefix> C-x`: Use a vertical layout.
      - ⏩`<Prefix> Enter`: Switch to the next layout.
 
-     - ⬅️ `A-Left`: Resize pane to the left.
-     - ➡️ `A-Right`: Resize pane to the right.
-     - ⬆️ `A-Up`: Resize pane up.
-     - ⬇️ `A-Down`: Resize pane down.
+     - ⬅️ `A-Left`: Resize pane to the left Not in Nvim.
+     - ➡️ `A-Right`: Resize pane to the right Not in Nvim.
+     - ⬆️ `A-Up`: Resize pane up Not in Nvim.
+     - ⬇️ `A-Down`: Resize pane down Not in Nvim.
 
-     - ⬅️ `C-h`: Move to the pane on the left Not in Vim.
-     - ➡️ `C-l`: Move to the pane on the right Not in Vim.
-     - ⬆️ `C-k`: Move to the pane above Not in Vim.
-     - ⬇️ `C-j`: Move to the pane below Not in Vim.
+     - ⬅️ `<Prefix>-Left`: Resize pane to the left.
+     - ➡️ `<Prefix>-Right`: Resize pane to the right.
+     - ⬆️ `<Prefix>-Up`: Resize pane up.
+     - ⬇️ `<Prefix>-Down`: Resize pane down.
+
+     - ⬅️ `C-h`: Move to the pane on the left Not in Vim/Nvim.
+     - ➡️ `C-l`: Move to the pane on the right Not in Vim/Nvim.
+     - ⬆️ `C-k`: Move to the pane above Not in Vim/Nvim.
+     - ⬇️ `C-j`: Move to the pane below Not in Vim/Nvim.
 
      - ⬅️ `<Prefix> h`: Move to the pane on the left.
      - ➡️ `<Prefix> j`: Move to the pane on the right.
